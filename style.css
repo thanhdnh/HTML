@@ -38,7 +38,7 @@ html, body{
 .content_1_r{
     float:left;
     width: 20%;
-    background-color: azure;
+    background-color: rgb(14, 132, 132);
 }
 .content_1_r .sub_1{
     background-color: fuchsia;
