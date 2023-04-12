@@ -1,3 +1,58 @@
 .container{
-    
+   width:90%;
+   margin:0 auto; 
+}
+.container>div{
+    height: 100px;
+}
+.banner{
+    background-color: red;;
+}
+.menu{
+    background-color: blue;;
+}
+.ltop{
+    float:left;
+    background-color: yellow;
+    width:20%;
+}
+.mtop{
+    float:left;
+    background-color: violet;
+    width:60%;
+}
+.rtop{
+    float:left;
+    background-color: cyan;
+    width:20%;
+}
+.rtop_1{
+    height: 50px;
+    background-color: rgb(56, 217, 217);
+}
+.rtop_2{
+    height: 50px;
+    background-color: darkorchid;
+}
+.lsbar{
+    width:20%;
+    background-color: blueviolet;
+    float:left;
+}
+.content{
+    width:80%;
+    background-color: bisque;
+    float:left;
+    height: 200px !important;
+}
+.lsbar_1{
+    height: 100px;
+    background-color: aquamarine;
+}
+.lsbar_2{
+    height: 100px;
+    background-color: chocolate;
+}
+.footer{
+    background-color: grey;
 }
