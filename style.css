@@ -38,6 +38,7 @@ html, body{
 .content_1_r{
     float:left;
     width: 20%;
+    background-color: azure;
 }
 .content_1_r .sub_1{
     background-color: fuchsia;
@@ -48,6 +49,7 @@ html, body{
 .content_2_l{
     width: 20%;
     float:left;
+    background-color: gainsboro;
 }
 .content_2_r{
     width:80%;
