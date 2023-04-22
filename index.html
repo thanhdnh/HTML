@@ -3,20 +3,34 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 </head>
 <body class="container">
-    <div id="writer" class="jumbotron">
-        <input class="form-control my-1" type="text" id="first">
-        <input class="form-control my-1" type="text" id="second">
-        <span class="btn btn-info my-1 d-block" id="mybutton">Tính</span>
-        <span class="badge badge-success my-1 d-block" id="result">.</span>
-    </div>
-    <div class="jumbotron calc">
-        <input class="form-control my-1" type="text" id="message">
-        <input type="button" class="btn btn-secondary my-1" value="1">
-        <input type="button" class="btn btn-secondary my-1" value="2">
-        <input type="button" class="btn btn-warning my-1" value="+">
-        <input type="button" class="btn btn-success my-1" value="=">
-        <input type="button" class="btn btn-success my-1" value="CE">
-    </div>
+    <table class="table" id="datatable">
+        <thead class="bg-secondary text-light">
+            <td>STT</td>
+            <td>Họ Tên</td>
+            <td>Tuổi</td>
+            <td>Điểm TB</td>
+        </thead>
+    </table>
+    <table class="table">
+        <thead class="bg-secondary text-light">
+            <td>STT</td>
+            <td>Họ Tên</td>
+            <td>Tuổi</td>
+            <td>Điểm TB</td>
+        </thead>
+        <tbody id="contentdata">
+        </tbody>
+    </table>
+    <table class="table">
+        <thead class="bg-secondary text-light">
+            <td>STT</td>
+            <td>Họ Tên</td>
+            <td>Tuổi</td>
+            <td>Điểm TB</td>
+        </thead>
+        <tbody id="filterdata">
+        </tbody>
+    </table>
 </body>
 <script type="text/javascript" src="script.js"></script>
 </html>
